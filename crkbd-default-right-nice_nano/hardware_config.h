@@ -33,11 +33,12 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
+/*
 	#define BACKLIGHT_PWM_ON 0
 	#define WS2812B_LED_PIN 6
-	
 	#define WS2812B_LED_COUNT 27
-	#define WS2812B_LED_ON 1 
+	#define WS2812B_LED_ON 1
+*/
      #define BATTERY_TYPE BATT_LIPO
 
 #define  STATUS_KB_LED_PIN 17  //red = 0.17
@@ -47,15 +48,15 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
           //#define  STATUS_KB_LED_PIN 0  //no RED LED
 
 //  OLED DEFINITION
-    #define I2C_SDA_PIN 17
+    /*#define I2C_SDA_PIN 17
     #define I2C_SCK_PIN 20
     #define DISPLAY_U8G2_CONSTRUCTOR U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C // see https://github.com/olikraus/u8g2/wiki/u8g2setupcpp for reference
+*/
 
-
-   /*     #define D3      6  
-        #define D2      8   
-        #define D1      17  
-        #define D0      20  
+   /*     #define D3      6
+        #define D2      8
+        #define D1      17
+        #define D0      20
         #define D4      22
         #define C6      24
         #define D7      32 //1.00  = 32+0
@@ -64,12 +65,12 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
         #define B5      38 //1.06  = 32+6
 
         #define F4      31
-        #define F5      29 
+        #define F5      29
         #define F6      2
         #define F7      47 //1.15  = 32+15
         #define B1      45 //1.13  = 32+13
         #define B3      43 //1.11 = 32+11
         #define B2      10
         #define B6      9
-        #define NC      33 //1.01 = 32+1 // NC is for not connected....*/  
+        #define NC      33 //1.01 = 32+1 // NC is for not connected....*/
 #endif /* HARDWARE_CONFIG_H */
