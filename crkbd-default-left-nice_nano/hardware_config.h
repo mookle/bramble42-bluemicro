@@ -24,8 +24,8 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 6
-#define MATRIX_ROW_PINS { 4, 5, 6, 7 }
-#define MATRIX_COL_PINS { 21, 20, 19, 18, 15, 14 }
+#define MATRIX_ROW_PINS { 19, 20, 21, 22 }
+#define MATRIX_COL_PINS { 5, 6, 7, 8, 9, 10 }
 
 #define ARDUINO_NICE_NANO 1 // used in debug_cli.cpp to bypass 0.14 and 0.16 that are directly connected to 0.18 (reset)
 
